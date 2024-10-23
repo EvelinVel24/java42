@@ -1,0 +1,21 @@
+<web-app>
+    <servlet>
+        <servlet-name>DatosServlet</servlet-name>
+        <servlet-class>controller.DatosServlet</servlet-class>
+    </servlet>
+    
+    <servlet>
+        <servlet-name>FacturaServlet</servlet-name>
+        <servlet-class>controller.FacturaServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DatosServlet</servlet-name>
+        <url-pattern>/DatosServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>FacturaServlet</servlet-name>
+        <url-pattern>/FacturaServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
